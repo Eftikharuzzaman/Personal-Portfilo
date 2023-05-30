@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    background: url(Img/banner.jpg) no-repeat center;
+    height: 100vh;
+    color: var(--text-color);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .max-width{
+        width: 100%;
+        display: flex;
+
+        .home-content{
+            .text-1{
+                font-size: 27px;
+                margin-left: 75px;
+            }
+            .text-2{
+                font-size: 50px;
+                font-weight: 700;
+                margin-left: -55px;
+            }
+            .text-3{
+                font-size: 35px;
+                margin: 5px 0;
+            }
+            a{
+                display: inline-block;
+                background: var(--bg-color);
+                color: var(--text-color);
+                font-size: 25px;
+                padding: 12px 30px;
+                margin-top: 20px;
+                margin-left: 90px;
+                font-weight: 400;
+                border-radius: 5px;
+                border: 2px solid #0097e6;
+                transition: 0.3s all ease;
+
+                &:hover{
+                    color: var(--bg-color);
+                    background: none;
+                }
+            }
+        }
+    }
+}
