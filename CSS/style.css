@@ -13,6 +13,10 @@
   margin: auto;
 }
 
+section {
+  padding: 100px 0;
+}
+
 :root {
   --background-color: #111111;
   --bg-color: #DC143C;
@@ -154,4 +158,56 @@
 #about .about-content .right a:hover {
   background: none;
   color: var(--bg-color);
+}
+
+#service {
+  width: 100%;
+  height: auto;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+#service .title {
+  position: relative;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+#service .service-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#service .service-content .card {
+  width: calc(33% - 20px);
+  background: #222222;
+  text-align: center;
+  padding: 50px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+#service .service-content .card:hover {
+  background: var(--bg-color);
+}
+#service .service-content .card:hover .box {
+  transform: scale(1.05);
+}
+#service .service-content .card .box {
+  transition: 0.3s all ease;
+}
+#service .service-content .card .box i {
+  font-size: 60px;
+  color: #00a8ff;
+  font-weight: 900;
+}
+#service .service-content .card .box .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+#service .service-content .card .box p {
+  font-size: 18px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
