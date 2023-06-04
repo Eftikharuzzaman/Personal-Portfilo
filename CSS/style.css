@@ -64,7 +64,7 @@ section {
 
 .home {
   display: flex;
-  background: url(Img/banner.jpg) no-repeat center;
+  background: url(Img/Home.jpg) no-repeat center;
   height: 100vh;
   color: var(--text-color);
   min-height: 500px;
@@ -506,4 +506,7 @@ footer a {
   color: var(--bg-color);
   text-decoration: none;
   font-size: 18px;
+}
+footer p {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
