@@ -509,4 +509,47 @@ footer a {
 }
 footer p {
   display: inline-block;
+}
+
+@media (max-width: 992px) {
+  #navbar .max-width {
+    padding: 0 30px;
+  }
+  #navbar .max-width .logo a {
+    font-size: 40px;
+  }
+  #home .max-width {
+    padding: 0 70px;
+  }
+  #home .max-width .home-content .text-2 {
+    font-size: 40px;
+    margin-left: -15px;
+  }
+  #home .max-width .home-content .text-3 {
+    font-size: 28px;
+    margin-left: 25px;
+  }
+  #home .max-width .home-content a {
+    font-size: 20px;
+    margin-left: 105px;
+  }
+  #about .max-width {
+    padding: 0 40px;
+  }
+  #about .max-width .about-content .left img {
+    width: 350px;
+    height: 350px;
+  }
+  #service .max-width {
+    padding: 0 39px;
+  }
+  #teams .max-width {
+    padding: 0 40px;
+  }
+  #contact .max-width {
+    padding: 0 40px;
+  }
+  #contact .max-width .contact-content .column-left {
+    margin-right: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
